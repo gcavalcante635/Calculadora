@@ -16,7 +16,7 @@
 
 </head>
 <body>
-     <div class="container">
+<div class="container">
      <div class="row mt-2">
      <center> <h1>Calculadora online</h1> <center>
      </div>
@@ -24,11 +24,11 @@
      <div class="row mt-2">
 
       <div class="row">
-      <h1>Calculadora</h1> 
+       <h1>Calculadora</h1> 
       </div>
 
       <div class="row">
-      <form method="POST" action="{{ route('somar') }}">
+      <form method="POST" action="{{ route('subtrair') }}">
        @csrf
         <div class="mb-3">
          <label for="primeiroValor" class="form-label">Primeiro valor</label>
@@ -38,14 +38,14 @@
          <label for="segundoValor" class="form-label">Segundo valor</label>
          <input type="number" class="form-control" id="segundoValor" name="valor2">
         </div>
-        <button type="submit" class="btn btn-primary">Somar</button>
+        <button type="submit" class="btn btn-primary">Subtrair</button>
        </form>
       </div>
       </div>
-      
+
      <div class="row mt-2">
      <center> Todos os diretos reservados - Guilherme Marinho de Araujo Cavalcante - 2021 <center>
      </div>
     </div>
- </body>
+</body>
 </html>
