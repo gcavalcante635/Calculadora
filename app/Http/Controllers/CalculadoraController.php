@@ -28,6 +28,7 @@ class CalculadoraController extends Controller
     }
     public function calcularSoma(Request $request)
     {
+        // dd($request->all());
         $valor1 = $request->valor1; 
         $valor2 = $request->valor2; 
         $resultado = $valor1 + $valor2;

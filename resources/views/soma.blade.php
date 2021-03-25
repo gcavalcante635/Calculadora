@@ -44,7 +44,7 @@
       </div>
       
      <div class="row mt-2">
-     <center> Todos os diretos reservados - Guilherme Marinho de Araujo Cavalcante - 2021 <center>
+     <center> Todos os direitos reservados - Guilherme Marinho de Araujo Cavalcante - 21/03/2021 <center>
      </div>
     </div>
  </body>

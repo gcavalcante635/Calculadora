@@ -25,32 +25,27 @@
 <div class="row mt-3">
             </div> 
             <div class="row">
-            <form method="soma" action="{{ route('carregarSoma') }}">
-                        
-                    <button type="submit" class="btn btn-primary">Somar</button>
-                    </form>
-            </div>
+
+                <a  href="{{ route('carregarSoma') }}" class="btn btn-primary">Somar</a>
+                    </div>
+           
             <div class="row mt-2">
-            <form method="subtracao" action="{{ route('carregarSubtração') }}">
-                        
-                    <button type="submit" class="btn btn-primary">Subtrair</button>
-                    </form>
-            </div>
+
+            <a  href="{{ route('carregarSubtração') }}" class="btn btn-primary">Subtrair</a>
+                    </div>
+
             <div class="row mt-2">
-            <form method="multiplicacao" action="{{ route('carregarMultiplicação') }}">
-                        
-                    <button type="submit" class="btn btn-primary">Multiplicar</button>
-                    </form>
+
+            <a  href="{{ route('carregarMultiplicação') }}" class="btn btn-primary">Multiplicar</a>
             </div> 
+
             <div class="row mt-2">
-            <form method="divisao" action="{{ route('carregarDivisão') }}">
-                        
-                    <button type="submit" class="btn btn-primary">Dividir</button>
-                    </form>
+
+            <a  href="{{ route('carregarDivisão') }}" class="btn btn-primary">Divisão</a>
             </div>             
 
 <div class="row mt">
-     <center> Todos os diretos reservados - Guilherme Marinho de Araujo Cavalcante - 2021 <center>
+     <center> Todos os direitos reservados - Guilherme Marinho de Araujo Cavalcante - 21/03/2021 <center>
    </div>
 
 </div>
